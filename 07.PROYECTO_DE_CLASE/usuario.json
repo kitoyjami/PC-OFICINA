@@ -1,5 +1,13 @@
 {
-  "1": {},
+  "1": {
+    "id": "74969821",
+    "nombre": "minano",
+    "region": "kanto",
+    "pokemons": [
+      "pikachu",
+      "charmander"
+    ]
+  },
   "3": {
     "id": "70924665",
     "nombre": "kitoyjami",
