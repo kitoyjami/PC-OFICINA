@@ -34,8 +34,8 @@ function accesoUsuario(identificador){
  const pokemon =async(i)=> {
      const respuestasFotos=await fetch(`https://pokeapi.co/api/v2/pokemon/`+i)
      const fotosMarte =await respuestasFotos.json();
-     const abilities=fotosMarte.abilities;
-     console.log(abilities)
+     //const abilities=fotosMarte.abilities;
+     console.log(fotosMarte)
  }
 pokemon("ditto");
 
