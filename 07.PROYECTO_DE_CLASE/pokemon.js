@@ -19,6 +19,10 @@ function listening(){
     console.log("listening...");
 
 }
+
+
+
+
 app.use(express.static("website"));
 app.get("/add/:word/:otherword/:score/:region/:pokemon1/:pokemon2",addWord)
 app.get('/all',sendAll);
