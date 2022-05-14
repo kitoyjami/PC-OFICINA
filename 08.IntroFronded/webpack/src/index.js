@@ -1,3 +1,4 @@
+import "./styles/main.css"
 import sms from "./tools/saludar.js"
 
-console.log(sms("Juan"));
+document.querySelector("#app").innerHTML=sms("Juan");
